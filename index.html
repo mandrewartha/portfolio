@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <main>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" >
+      <div class="container-fluid" id="navbar">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page"
+                href="https://drive.google.com/file/d/15BQkaZ7LDausDRZ2HK_1TCpFxSw9JHGr/view" target="_blank">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/meghan-andrewartha-b5b5a9213/"
+                target="_blank">Linked In</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/mandrewartha" target="_blank">GitHub</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- jumbotron -->
+    <div class="jumbotron jumbotron-fluid" id="jumbotron">
+      <div class="container" >
+        <h1 class="display-4" id="name">Meghan Andrewartha</h1>
+        <p class="lead" id="jumbo-portfolio">I am a fullstack web developer student at the Univeristy of Washington Coding Bootcamp.</p>
+      </div>
+    </div>
+    <!-- Carousel -->
+    <div id="carousel">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="https://github.com/KeithMurph/PerfectHome" target="_blank">
+              <img
+                src="https://user-images.githubusercontent.com/84876493/128796691-c230e9bb-4470-4665-8538-2f05a07f41fa.png"
+                class="d-block w-100" alt="Perfect Home">
+            </a>
+          </div>
+
+          <div class="carousel-item">
+            <a href="https://github.com/mandrewartha/MTG-deck-builder" target="_blank">
+              <img
+                src="https://user-images.githubusercontent.com/84876493/125176132-f60ed800-e185-11eb-9cfa-6f54f4a49ca4.png"
+                class="d-block w-100" alt="MTG Deck Builder">
+          </div></a>
+          <div class="carousel-item">
+            <a href="https://github.com/mandrewartha/work-day-scheduler" target="_blank">
+              <img
+                src="https://user-images.githubusercontent.com/84876493/124217304-fc79c180-daac-11eb-8961-b0f3a282e4f5.png"
+                class="d-block w-100" alt="Work Day Scheduler">
+            </a>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- Text -->
+    <h3 id="example-text">Examples of Work</h3>
+    <!-- Portfolio Cards -->
+    <div id="cards">
+    <div class="card" style="width: 18rem;">
+      <a href="https://github.com/KeithMurph/PerfectHome" target="_blank">
+        <img src="https://user-images.githubusercontent.com/84876493/128796691-c230e9bb-4470-4665-8538-2f05a07f41fa.png"
+          class="card-img-top" alt="Perfect Home Picture">
+      </a>
+      <div class="card-body">
+        <p class="card-text">Research dog breeds and take a fun quiz to find pets for adoption in your area!</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <a href="https://github.com/mandrewartha/MTG-deck-builder" target="_blank">
+        <img src="https://user-images.githubusercontent.com/84876493/125176132-f60ed800-e185-11eb-9cfa-6f54f4a49ca4.png"
+          class="card-img-top" alt="Magic The Gathering Deck Builder Picture">
+      </a>
+      <div class="card-body">
+        <p class="card-text">A site that allows you to create custom decks to play a card game.</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <a href="https://github.com/mandrewartha/work-day-scheduler" target="_blank">
+        <img src="https://user-images.githubusercontent.com/84876493/124217304-fc79c180-daac-11eb-8961-b0f3a282e4f5.png"
+          class="card-img-top" alt="Workday Scheduler">
+      </a>
+      <div class="card-body">
+        <p class="card-text">Plan your work day by the hour.</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <a href="https://github.com/mandrewartha/javascript-password-generator">
+        <img src="https://user-images.githubusercontent.com/84876493/123358173-d50c7d00-d51f-11eb-8e0e-e647c29ba88a.png"
+          class="card-img-top" alt="Password Generator">
+      </a>
+      <div class="card-body">
+        <p class="card-text">Generate a secure password that is original every time!</p>
+      </div>
+    </div>
+  </div>
+  <!-- text -->
+  <h5 id="contact">Contact Me: megandrew1918@gmail.com</h5>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+    integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+    crossorigin="anonymous"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

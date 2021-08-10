@@ -1,0 +1,63 @@
+body {
+    background-color: #D2D4D6;
+}
+
+#carousel {
+    width: 65%;
+    display:flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right:auto;
+    border: 5px solid black;
+    margin-top: 50px;
+}
+
+
+
+#name{
+    font-family: 'Courgette', cursive;
+    padding: 40px;
+}
+
+#jumbotron {
+    background: url("https://s3.amazonaws.com/codementor_content/2015-Aug-week3/portfolio.jpg");
+    height: 300px;
+    align-items: center;
+    color:black;
+    margin:0px;
+    background-size:100%;
+ 
+}
+
+#navbar {
+    background-color:#646667 ;
+    /* height: 90px; */
+}
+
+.card {
+    margin: 15px;
+    width:50%;
+}
+
+#cards {
+    margin: 5px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+#example-text {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+
+}
